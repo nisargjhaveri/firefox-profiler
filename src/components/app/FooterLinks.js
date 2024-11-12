@@ -38,30 +38,6 @@ export class FooterLinks extends PureComponent<{||}, State> {
             ✕
           </button>
         </Localized>
-        <a
-          className="appFooterLinksLink"
-          href="https://www.mozilla.org/about/legal/terms/mozilla"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Localized id="FooterLinks--legal">Legal</Localized>
-        </a>
-        <a
-          className="appFooterLinksLink"
-          href="https://www.mozilla.org/privacy/websites"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Localized id="FooterLinks--Privacy">Privacy</Localized>
-        </a>
-        <a
-          className="appFooterLinksLink"
-          href="https://www.mozilla.org/privacy/websites/#cookies"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Localized id="FooterLinks--Cookies">Cookies</Localized>
-        </a>
         <LanguageSwitcher />
       </div>
     );

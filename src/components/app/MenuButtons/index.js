@@ -361,24 +361,7 @@ class MenuButtonsImpl extends React.PureComponent<Props, State> {
   }
 
   render() {
-    return (
-      <>
-        {this._renderFullViewButtonForActiveTab()}
-        {this._renderRevertProfile()}
-        {this._renderMetaInfoButton()}
-        {this._renderPublishPanel()}
-        {this._renderPermalink()}
-        <a
-          href="/docs/"
-          target="_blank"
-          className="menuButtonsButton menuButtonsButton-hasLeftBorder"
-          title="Open the documentation in a new window"
-        >
-          <Localized id="MenuButtons--index--docs">Docs</Localized>
-          <i className="open-in-new" />
-        </a>
-      </>
-    );
+    return <>{this._renderMetaInfoButton()}</>;
   }
 }
 
